@@ -1,0 +1,1 @@
+window.minio = require('minio')

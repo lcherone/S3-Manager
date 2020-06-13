@@ -1,0 +1,88 @@
+// see: ./frontpage/node_modules/bootstrap/scss/_variables.scss
+
+$blue: #007bff !default;
+$indigo: #6610f2 !default;
+$purple: #6f42c1 !default;
+$pink: #e83e8c !default;
+$red: #dc3545 !default;
+$orange: #fd7e14 !default;
+$yellow: #ffc107 !default;
+$green: #28a745 !default;
+$teal: #20c997 !default;
+$cyan: #17a2b8 !default;
+$gray: #868e96 !default;
+$cyan: #17a2b8 !default;
+$grey-dark: #292929 !default;
+$dark: #354052 !default;
+
+$body-bg: #fff;
+$body-color: #292929;
+$border-radius: 5px;
+$brand-primary: #6351ce;
+$brand-success: #5eba00;
+$brand-info: #17a2b8;
+$brand-warning: #ff922b;
+$brand-danger: #fa4654;
+$font-family-sans-serif: 'Lato',
+Tahoma,
+Geneva,
+sans-serif;
+$font-family-secondary: 'Noto Sans',
+sans-serif;
+$font-family-monospace: monospace;
+
+//
+.card {
+    .table {
+        border-right: 0;
+        border-left: 0;
+        margin-bottom: 0;
+
+        &:last-child {
+            border-bottom: 0
+        }
+
+        &:not(.table-sm) th,
+        &:not(.table-sm) td {
+            padding: 0.75rem 1.25rem
+        }
+
+        td:first-child,
+        th:first-child {
+            border-left: 0
+        }
+
+        td:last-child,
+        th:last-child {
+            border-right: 0
+        }
+
+        tr:first-child td,
+        tr:first-child th {
+            border-top: 0
+        }
+
+        tr:last-child td {
+            border-bottom: 0
+        }
+    }
+
+    .card-header+.table {
+        border-top: 0
+    }
+}
+
+.breadcrumb-container {
+    position: relative;
+
+    button {
+        position: absolute;
+        right: 1rem;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}
+
+.input-group-sm > .form-control {
+    height: calc(1.5em + 0.5rem + 7px) !important;
+}
